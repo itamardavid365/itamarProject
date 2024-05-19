@@ -1,0 +1,13 @@
+#pages-gallary_projects{
+    width: 100vw;
+    background: #060505;
+
+}
+#pages-gallary_projects #cards{
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+#pages-gallary_projects #cards img{
+    width: 100%;
+}

@@ -1,0 +1,464 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+
+header {
+    width: 100vw;
+    height: 80vh;
+    background-color: cornflowerblue;
+}
+
+.project {
+    width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.project .main-title {
+    font-size: 5rem;
+    font-size: 5rem;
+    padding: 130px 25px 25px 25px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.project .subtitle {
+
+    padding: 0;
+}
+
+.project p,
+.about_me div p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(46, 46, 66);
+    margin-top: 20px;
+}
+
+.my-skills {
+    position: relative;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.453);
+    justify-content: space-around;
+}
+
+
+.my-skills .skills-images img {
+    height: 7vh;
+}
+
+.skills-images {
+    transition: all 0.3s ease-in-out;
+}
+
+.skills-images:hover {
+    scale: 1.4;
+}
+
+.about_me {
+    width: 100vw;
+    background: cornflowerblue;
+}
+
+.about_me div {
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.about_me .imageContainer {
+    padding-top: 50px;
+    width: 150px;
+
+}
+
+.about_me .imageContainer img {
+    width: 100%;
+
+}
+
+.box_img {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+.about_me h2 {
+    font-size: 3rem;
+    color: white;
+    padding: 50px 0;
+}
+
+.about_me button {
+    margin: 80px auto;
+    font-size: 1.1rem;
+    padding: 15px;
+    border: none;
+    border-radius: 35px;
+    background-color: lightblue;
+}
+
+.about_me button,
+.about_me a {
+    transition: all 0.5s ease-in-out;
+}
+
+.about_me button a {
+    text-decoration: none;
+    color: rgb(2, 2, 8);
+    font-size: 1.5rem;
+}
+
+.about_me button:hover a {
+    color: white;
+
+}
+
+.about_me button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    transition: all 0.3 ease-in-out;
+}
+
+
+
+#gallary_projects {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallary_projects h1 {
+    font-size: 4rem;
+    padding: 100px 0;
+}
+
+#gallary_projects p {
+    width: 80%;
+    margin: 50px auto;
+    font-size: 1.5em;
+    line-height: 1.3;
+}
+
+#gallary_projects .cards {
+    margin-top: 100px;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gallary_projects .cards .container_box {
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #a8efff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#gallary_projects .cards .container_box .box_img img {
+    border-radius: 5px;
+    width: 100%;
+    /* height: 100%; */
+}
+
+#gallary_projects .cards .container_box .box_info {
+    height: 170px;
+    flex-grow: 1;
+}
+
+#gallary_projects .cards .container_box .box_info h3 {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+#gallary_projects .cards .container_box .box_info p {
+    font-size: 1rem;
+    line-height: 1.2;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#gallary_projects .cards .container_box .box_button button {
+    margin-bottom: 10px;
+}
+
+#gallary_projects .cards .container_box .box_button button a,
+#gallary_projects .cards .container_box .box_button button {
+    font-size: 2rem;
+    border: none;
+    background-color: cornflowerblue;
+    color: #000;
+    border-radius: 25px;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#gallary_projects .cards .container_box .box_button button a:hover,
+#gallary_projects .cards .container_box .box_button button:hover {
+    scale: 1.1;
+    color: wheat;
+}
+
+#gallary_projects .cards .container_box:hover {
+    scale: 1.1;
+}
+
+#gallary_projects .cards .container_box .container_img_icons img {
+    width: 35px;
+    padding: 5px;
+}
+
+
+#contact {
+    width: 100vw;
+    display: flex;
+    background: cornflowerblue;
+    text-align: right;
+}
+
+#contact .image-box {
+    width: 50%;
+}
+
+#contact .image-box img {
+    width: 100%;
+}
+
+#contact .form-box {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact .form-box form,
+#contact .form-box .input_user_data {
+    width: 50%;
+}
+
+#contact .form-box form input,
+#contact .form-box form textarea {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-bottom: 5px solid #a8efff;
+}
+
+#contact .form-box .input_user_data h3 {
+    font-size: 5em;
+    padding: 1rem 0;
+}
+
+#contact .form-box .input_user_data p {
+    font-size: 1.3rem;
+    padding: 1rem 0
+}
+
+#contact .form-box form label {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+
+#contact .form-box form filed-box,
+#contact .form-box form filed-box {
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-bottom: 5px solid #a8efff;
+}
+
+
+
+.contant_button {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 165px;
+    border-radius: 10px;
+}
+
+.footer_contact_options {
+    text-align: center;
+    height: 200px;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    background-color: transparent;
+    transition: all 1s ease-in-out;
+}
+
+.footer_contacts {
+    background-color: rgb(168, 239, 255);
+}
+
+.footer_contact_options div a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+}
+
+
+.footer_contact_options>div {
+
+    transition: all 0.3s ease-in-out;
+}
+
+.footer_contact_options>div:hover {
+    scale: 1.3;
+}
+
+.footer_bottom {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px;
+}
+
+img[alt="humburger menu"] {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #gallary_projects .cards .container_box {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .project {
+        width: 80%;
+    }
+
+    .project .main-title {
+        padding-top: 150px;
+        font-size: 2.5rem;
+    }
+
+    header .project .subtitle {
+        font-size: 1.2rem;
+        width: 100%;
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+
+    aside[class="logos_of_work"] img {
+        height: 1px;
+    }
+
+    .about_me div {
+        width: 100%;
+    }
+
+    .project p,
+    .about_me div p {
+        width: 90%;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #gallary_projects h1 {
+        font-size: 3rem;
+        padding: 25px 0 0 0;
+        font-weight: bolder;
+    }
+
+    #gallary_projects p {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.3;
+    }
+
+    #contact {
+        flex-direction: column-reverse;
+    }
+
+
+    #contact .image-box {
+        width: 100%;
+    }
+
+    #contact .form-box {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    label {
+        text-align: right;
+    }
+
+    #contact .form-box .input_user_data h3 {
+        font-size: 3em;
+    }
+
+    #contact .form-box form,
+    #contact .form-box .input_user_data {
+        width: 65%;
+    }
+
+
+    .contant_button {
+        margin-right: 0;
+    }
+
+    .footer_contact_options {
+        width: 90vw;
+    }
+}
+
+/* 
+
+    @media (max-width:776) {}
+
+    @media (max-width:568) {} */
