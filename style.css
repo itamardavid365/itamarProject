@@ -37,6 +37,20 @@ header {
     color: white;
 }
 
+.project a {
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+.project a button {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #110806;
+}
+
+
 .project .subtitle {
 
     padding: 0;
@@ -50,6 +64,7 @@ header {
     line-height: 1.5;
     color: rgb(46, 46, 66);
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .my-skills {
@@ -187,7 +202,7 @@ header {
 #gallary_projects .cards .container_box .box_img img {
     border-radius: 5px;
     width: 100%;
-    /* height: 100%; */
+    height: 230px;
 }
 
 #gallary_projects .cards .container_box .box_info {
@@ -274,6 +289,11 @@ header {
     background-color: white;
     border: none;
     border-bottom: 5px solid #a8efff;
+}
+
+#contact .form-box form textarea{
+    resize: none;
+    height: 150px;
 }
 
 #contact .form-box .input_user_data h3 {

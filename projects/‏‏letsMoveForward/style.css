@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-image: url(./images/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+.container .content .upper_container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 300px;
+    /* border: 1px solid #000; */
+}
+
+.content h1 {
+    color: #D3E10E;
+    font-size: 86px;
+    padding: 1rem;
+}
+
+.content p {
+    color: white;
+    font-size: 20px;
+}
+
+.content {
+    text-align: center;
+    width: 868px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.container_f {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_f form {
+    /* border: 1px solid #00ff15; */
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_f form button {
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    color: #011560;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.card {
+    width: 25vw;
+    color: #011560;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    width: 80%;
+}
+
+input {
+    width: 80%;
+    border: none;
+    border-bottom: 5px solid yellow;
+}
+
+
+@media (max-width: 767.98px) {
+    .container .content {
+        height: 45%;
+        width: 100%;
+    }
+
+    .container_f {
+        height: 55%;
+        width: 100%;
+    }
+
+    .container_f form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+
+    }
+
+    .upper_container h1 {
+        font-size: 1.8rem;
+        padding: 50px 0;
+    }
+
+    .container .content .upper_container {
+        width: 85vw;
+    }
+
+
+    .card,
+    input {
+        width: 100%;
+    }
+
+  .container_f form  button {
+        width: 100%;
+        padding: 7px;
+    }
+
+
+}
