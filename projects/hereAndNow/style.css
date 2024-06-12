@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container h1,
+.container h2,
+.container p,
+.container .contact label {
+    color: white;
+}
+
+.container h1 {
+    font: normal normal normal 160px/231px Satisfy;
+}
+
+.container h2 {
+    margin-top: -50px;
+    font: normal normal normal 32px/38px Varela Round;
+}
+
+.container p {
+    font: normal normal normal 16px/20px Varela Round;
+}
+
+.container .contact label {
+    display: block;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+}
+
+.contact input {
+    height: 50px;
+    width: 20rem;
+    border: 2px solid #FFFFFF;
+    background-color: #ffffff00;
+}
+
+.contact button {
+    height: 50px;
+    width: 160px;
+    border: 2px solid #FFFFFF;
+    font: normal normal normal 16px/20px Varela Round;
+    color: #1C1C1C;
+}
+
+.contact {
+    margin-bottom: 5%;
+}
+
+@media (max-width: 767.98px) {
+    .container h1 {
+        font: normal normal normal 80px Satisfy;
+        gap: 50px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+
+    .container h2 {
+        margin-top: 0px;
+        font: normal normal normal 20px Varela Round;
+    }
+
+    .container p {
+        width: 80%;
+        font: normal normal normal 16px Varela Round;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .contact input {
+        width: 80vw;
+    }
+
+    .contact button {
+        width: 80vw;
+    }
+    .contact{
+        margin-top: 10vh;
+    }
+}
