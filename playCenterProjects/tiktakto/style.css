@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+}
+.container h1{
+    padding: 1rem;
+    text-align: center;
+}
+#main-display{
+    height: 798px;
+    width: 798px;
+    outline: 1px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    outline: 1px dotted red;
+    height: calc(798px / 3);
+    width: calc(798px / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

@@ -158,25 +158,25 @@ header {
 
 
 
-#gallary_projects {
+.gallary_projects {
     width: 100vw;
     margin: 0 auto;
     text-align: center;
 }
 
-#gallary_projects h1 {
+.gallary_projects h1 {
     font-size: 4rem;
     padding: 100px 0;
 }
 
-#gallary_projects p {
+.gallary_projects p {
     width: 80%;
     margin: 50px auto;
     font-size: 1.5em;
     line-height: 1.3;
 }
 
-#gallary_projects .cards {
+.gallary_projects .cards {
     margin-top: 100px;
     width: 80vw;
     margin: 0 auto;
@@ -185,9 +185,14 @@ header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
-#gallary_projects .cards .container_box {
+.play-center {
+    background-color: rgba(211, 211, 211, 0.205);
+}
+
+.gallary_projects .cards .container_box {
     width: 30%;
     display: flex;
     text-align: center;
@@ -199,35 +204,35 @@ header {
 
 }
 
-#gallary_projects .cards .container_box .box_img img {
+.gallary_projects .cards .container_box .box_img img {
     border-radius: 5px;
     width: 100%;
     height: 230px;
 }
 
-#gallary_projects .cards .container_box .box_info {
+.gallary_projects .cards .container_box .box_info {
     height: 170px;
     flex-grow: 1;
 }
 
-#gallary_projects .cards .container_box .box_info h3 {
+.gallary_projects .cards .container_box .box_info h3 {
     font-size: 2rem;
     padding: 5px;
 }
 
-#gallary_projects .cards .container_box .box_info p {
+.gallary_projects .cards .container_box .box_info p {
     font-size: 1rem;
     line-height: 1.2;
     width: 95%;
     margin: 0 auto;
 }
 
-#gallary_projects .cards .container_box .box_button button {
+.gallary_projects .cards .container_box .box_button button {
     margin-bottom: 10px;
 }
 
-#gallary_projects .cards .container_box .box_button button a,
-#gallary_projects .cards .container_box .box_button button {
+.gallary_projects .cards .container_box .box_button button a,
+.gallary_projects .cards .container_box .box_button button {
     font-size: 2rem;
     border: none;
     background-color: cornflowerblue;
@@ -238,17 +243,17 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-#gallary_projects .cards .container_box .box_button button a:hover,
-#gallary_projects .cards .container_box .box_button button:hover {
+.gallary_projects .cards .container_box .box_button button a:hover,
+.gallary_projects .cards .container_box .box_button button:hover {
     scale: 1.1;
     color: wheat;
 }
 
-#gallary_projects .cards .container_box:hover {
+.gallary_projects .cards .container_box:hover {
     scale: 1.1;
 }
 
-#gallary_projects .cards .container_box .container_img_icons img {
+.gallary_projects .cards .container_box .container_img_icons img {
     width: 35px;
     padding: 5px;
 }
@@ -291,7 +296,7 @@ header {
     border-bottom: 5px solid #a8efff;
 }
 
-#contact .form-box form textarea{
+#contact .form-box form textarea {
     resize: none;
     height: 150px;
 }
@@ -321,7 +326,12 @@ header {
     border-bottom: 5px solid #a8efff;
 }
 
-
+form .button-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
 
 .contant_button {
     font-size: 2rem;
@@ -331,8 +341,6 @@ header {
     padding: 5px;
     background-color: black;
     width: 200px;
-    margin-top: 20px;
-    margin-right: 165px;
     border-radius: 10px;
 }
 
@@ -388,9 +396,13 @@ img[alt="humburger menu"] {
 }
 
 @media (max-width: 768px) {
-    #gallary_projects .cards .container_box {
+    .gallary_projects .cards .container_box {
         width: 100%;
         height: 60vh;
+    }
+
+    .gallary_projects .cards {
+        padding: 0;
     }
 
     .project {
@@ -425,13 +437,13 @@ img[alt="humburger menu"] {
         font-weight: bold;
     }
 
-    #gallary_projects h1 {
+    .gallary_projects h1 {
         font-size: 3rem;
         padding: 25px 0 0 0;
         font-weight: bolder;
     }
 
-    #gallary_projects p {
+    .gallary_projects p {
         width: 80%;
         margin: 30px auto;
         font-size: 1.5em;
@@ -471,6 +483,7 @@ img[alt="humburger menu"] {
     .contant_button {
         margin-right: 0;
     }
+
 
     .footer_contact_options {
         width: 90vw;
